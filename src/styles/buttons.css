@@ -1,0 +1,17 @@
+#buttons {
+  background-color: var(--base);
+  overflow: hidden;
+  width: auto;
+}
+
+.button {
+  float: center;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.button:hover {
+  background-color: var(--surface0);
+}

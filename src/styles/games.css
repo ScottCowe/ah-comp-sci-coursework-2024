@@ -1,0 +1,31 @@
+#games-container {
+	display: table;
+	width: auto;
+	height: auto;
+	margin-top: 40px;
+	margin-left: 60px;
+	background-color: var(--mantle);
+}
+
+.games-row {
+	display: table-row;
+	width: auto;
+	height: auto;
+}
+
+.game-link {
+	display: table-cell;
+	width: 352px;
+	height: 352px;
+	background-color: var(--base);
+	padding: 20px;
+	background-clip: content-box;
+	text-decoration: none;
+}
+
+.game-link p {
+	color: var(--text);	
+	margin: 10px;
+	padding: 50px 0;
+	text-align: center;
+}

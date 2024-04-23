@@ -1,0 +1,38 @@
+#board-container {
+	width: auto;
+	height: auto;
+	margin: 40px;
+}
+
+.board-row {
+
+}
+
+.square {
+  display: table-cell;
+  width: 100px;
+  height: 100px;
+}
+
+
+.square img {
+	width: 70px;
+	height: 70px;
+	margin: 10px;
+}
+
+.black-square {
+  background-color: var(--blue);
+}
+
+.white-square {
+  background-color: var(--rosewater);
+}
+
+.highlighted {
+  background-color: var(--mauve);
+}
+
+.clicked {
+  background-color: var(--red);
+}

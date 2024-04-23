@@ -1,0 +1,22 @@
+#navbar {
+  background-color: var(--mantle);
+  overflow: hidden;
+}
+
+#navbar a {
+  float: left;
+  color: var(--text);
+  background-color: var(--base);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: var(--surface0);
+}
+
+#navbar a.active {
+  background-color: var(--surface1);
+}
